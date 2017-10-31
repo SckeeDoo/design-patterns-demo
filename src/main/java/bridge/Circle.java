@@ -15,7 +15,9 @@ public class Circle extends Shape {
     }
 
     public void draw() {
+
         drawAPI.drawCircle(radius,x,y);
+
     }
 
 }

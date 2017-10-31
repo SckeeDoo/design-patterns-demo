@@ -1,9 +1,10 @@
-package factory;
+package abstractfactory;
+
 
 /**
  * Created by schiduvasile on 10/24/17.
  */
-public class Circle implements Shape{
+public class Circle implements Shape {
 
     @Override
     public void draw() {

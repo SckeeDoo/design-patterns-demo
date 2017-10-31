@@ -7,6 +7,7 @@ import java.util.List;
  * Created by schiduvasile on 10/24/17.
  */
 public class Meal {
+
     private List<Item> items = new ArrayList<Item>();
 
     public void addItem(Item item){

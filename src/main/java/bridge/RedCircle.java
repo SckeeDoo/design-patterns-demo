@@ -10,4 +10,5 @@ public class RedCircle implements DrawAPI{
         System.out.println("Drawing Red Circle with radius = " + radius + ", x = " + x + " and y = " + y);
     }
 
+
 }
