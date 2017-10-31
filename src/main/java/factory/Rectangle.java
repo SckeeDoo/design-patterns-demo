@@ -5,8 +5,18 @@ package factory;
  */
 public class Rectangle implements Shape {
 
+
+    private static Rectangle rectangleInstance = new Rectangle();
+
+    private Rectangle(){}
+
     @Override
     public void draw() {
         System.out.println("Drawing rectangle.");
     }
+
+    public static Rectangle getRectangleInstance() {
+        return rectangleInstance;
+    }
+
 }
